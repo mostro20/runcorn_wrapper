@@ -13,6 +13,13 @@ This is all based on Bootstrap v3, and you can compile from the `SCSS folder` to
 This contains three template HTML files:
 `content-page.html`, which is a responsive three column layout,
 `content-page-left.html`, which contains a left column only,
-`content-page-right.html`, which contains a right column only.
+`content-page-right.html`, which contains a right column only,
+`component-guide.html`, which contains a individual reusable components.
 
 All three will reference the assets as a theme, but you can overrides this with what you develop from the Bootstrap SCSS folder.
+
+## archivesspace replication
+
+There are also handful of files developed to replicate the ArchivesSpace traditional pages, so include similar form elements and the like.
+
+`intro-form.html` - contains the equivalent of the AS Front page
