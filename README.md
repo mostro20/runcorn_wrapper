@@ -18,7 +18,7 @@ This contains three template HTML files:
 
 All three will reference the assets as a theme, but you can overrides this with what you develop from the Bootstrap SCSS folder.
 
-## archivesspace replication
+## TO-DO: archivesspace replication
 
 There are also handful of files developed to replicate the ArchivesSpace traditional pages, so include similar form elements and the like.
 
