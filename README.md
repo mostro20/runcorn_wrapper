@@ -11,9 +11,9 @@ This is all based on Bootstrap v4.1, and you can compile from the `SCSS folder` 
 ## template html
 
 This contains three template HTML files:
-`content-page.html`, which is a responsive three column layout,
-`content-page-left.html`, which contains a left column only,
-`content-page-right.html`, which contains a right column only,
-`component-guide.html`, which contains a individual reusable components.
+ * `content-page.html`, which is a responsive three column layout,
+ * `content-page-left.html`, which contains a left column only,
+ * `content-page-right.html`, which contains a right column only,
+ * `component-guide.html`, which contains a individual reusable components.
 
 All three will reference the assets as a theme, but you can overrides this with what you develop from the Bootstrap SCSS folder.
