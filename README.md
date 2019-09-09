@@ -6,7 +6,7 @@ Written to provide some wrapper elements (header and footer) to make the AS QSA 
 
 ## theme
 
-This is all based on Bootstrap v3, and you can compile from the `SCSS folder` to create a theme. Place all your favourite overrides in the `scss/overrides.scss` file.
+This is all based on Bootstrap v4.1, and you can compile from the `SCSS folder` to create a theme. Place all your favourite overrides in the `scss/overrides.scss` file.
 
 ## template html
 
@@ -17,9 +17,3 @@ This contains three template HTML files:
 `component-guide.html`, which contains a individual reusable components.
 
 All three will reference the assets as a theme, but you can overrides this with what you develop from the Bootstrap SCSS folder.
-
-## TO-DO: archivesspace replication
-
-There are also handful of files developed to replicate the ArchivesSpace traditional pages, so include similar form elements and the like.
-
-`intro-form.html` - contains the equivalent of the AS Front page
