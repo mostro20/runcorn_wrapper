@@ -17,3 +17,8 @@ This contains three template HTML files:
  * `component-guide.html`, which contains a individual reusable components.
 
 All three will reference the assets as a theme, but you can overrides this with what you develop from the Bootstrap SCSS folder.
+
+## as inspired templates
+
+The following pages have been developed to show some ways of using components to return AS pages:
+ * `result-sample`, returning results and listing those on a page
