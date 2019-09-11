@@ -21,4 +21,5 @@ All three will reference the assets as a theme, but you can overrides this with 
 ## as inspired templates
 
 The following pages have been developed to show some ways of using components to return AS pages:
- * `result-sample`, returning results and listing those on a page
+ * `result-sample.html`, sample layout for Agencies
+* `result-sample-series.html`, sample layout for Series
