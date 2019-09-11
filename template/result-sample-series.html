@@ -191,33 +191,72 @@ End Google Tag Manager -->
 
         <div class="row">
         <div class="col-sm-12">
-        <h1>(agency.title)</h1>
+        <h1>(series.title)</h1>
 
         <!-- Output the primary description-->
         <h2 class="sr-only">Basic information</h2>
         <section class="core-information">
 
-          <p class="lead">(agency.agency_note)</p>
+          <p class="lead">(series.abstract)</p>
 
           <ul class="list-group list-group-horizontal-md">
             <li class="list-group-item">
               <span class="small">ID</span><br>
-              [agency.qsa_id_prefixed]
+              [series.qsa_id_prefixed]
             </li>
             <li class="list-group-item">
               <span class="small">START DATE</span><br>
-              [agency.start_date] ([start date qual])
+              [series.start_date] ([start date qual])
             </li>
             <li class="list-group-item">
               <span class="small">END DATE</span><br>
-              [agency.end_date] ([end date qual])
+              [series.end_date] ([end date qual])
             </li>
           </ul>
           <!-- If there are Date notes, output them as a footer -->
-          <p class="footer">Date notes: [agency.date_notes]
+          <p class="footer small">Date notes: [Series.date_notes]
 
-          <!-- Should probably output the alternative names, this is not an ideal way, so will rework this... -->
-          <p>Alternative names: (agency.subordinate_name_1) (agency.subordinate_name_2)</p>
+          <h3 class="sr-only">Series descriptive metadata</h3>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">Disposal class</h4>
+              </div>
+              <p class="mb-1">(Disposal class)</p>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">Sensitivity label</h4>
+              </div>
+              <p class="mb-1">(sensitivity label)</p>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">Copyright status</h4>
+              </div>
+              <p class="mb-1">(copyright status)</p>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">Information sources</h4>
+              </div>
+              <p class="mb-1">(information sources)</p>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">Previous identifiers</h4>
+              </div>
+              <p class="mb-1">(Previous system identifiers)</p>
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">Access notifications</h4>
+              </div>
+              <p class="mb-1">(access notifications)</p>
+            </li>
+        </ul>
+
         </section>
 
 
@@ -260,36 +299,22 @@ End Google Tag Manager -->
             </article>
             <article>
               <input id="panel-5" type="checkbox" name="tabs" aria-controls="id-panel-content-5" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-5">Note type: Legislation - Establishing<span class="arrow"> <i></i></span></label></h3>
+              <h3 class="acc-heading"><label for="panel-5">Note type: Agency Control Numbers<span class="arrow"> <i></i></span></label></h3>
               <div class="collapsing-section" aria-hidden="true" id="id-panel-content-5">
                 <p> Insert all content from this note into this space</p>
               </div>
             </article>
             <article>
               <input id="panel-6" type="checkbox" name="tabs" aria-controls="id-panel-content-6" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-6">Note type: Legislation - Abolished<span class="arrow"> <i></i></span></label></h3>
+              <h3 class="acc-heading"><label for="panel-6">External resources: Finding aids<span class="arrow"> <i></i></span></label></h3>
               <div class="collapsing-section" aria-hidden="true" id="id-panel-content-6">
                 <p> Insert all content from this note into this space</p>
               </div>
             </article>
             <article>
               <input id="panel-7" type="checkbox" name="tabs" aria-controls="id-panel-content-7" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-7">Note type: Legislation - Administered<span class="arrow"> <i></i></span></label></h3>
+              <h3 class="acc-heading"><label for="panel-7">External resources: Publications<span class="arrow"> <i></i></span></label></h3>
               <div class="collapsing-section" aria-hidden="true" id="id-panel-content-7">
-                <p> Insert all content from this note into this space</p>
-              </div>
-            </article>
-            <article>
-              <input id="panel-8" type="checkbox" name="tabs" aria-controls="id-panel-content-8" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-8">Note type: Departmental numbers<span class="arrow"> <i></i></span></label></h3>
-              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-8">
-                <p> Insert all content from this note into this space</p>
-              </div>
-            </article>
-            <article>
-              <input id="panel-9" type="checkbox" name="tabs" aria-controls="id-panel-content-9" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-9">External Resources: Publications<span class="arrow"> <i></i></span></label></h3>
-              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-9">
                 <p> Insert all content from this note into this space</p>
               </div>
             </article>

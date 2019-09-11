@@ -22,4 +22,4 @@ All three will reference the assets as a theme, but you can overrides this with 
 
 The following pages have been developed to show some ways of using components to return AS pages:
  * `result-sample.html`, sample layout for Agencies
-* `result-sample-series.html`, sample layout for Series
+ * `result-sample-series.html`, sample layout for Series
