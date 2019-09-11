@@ -2,7 +2,7 @@
 
 Based on https://github.com/qld-gov-au/web-template-release/
 
-Written to provide some wrapper elements (header and footer) to make the AS QSA instance appear "goverment-y" as well as some styles and components to reuse for elements inside the forms.
+Written to provide some wrapper elements (header and footer) to make the AS QSA instance appear "government-y" as well as some styles and components to reuse for elements inside the forms.
 
 ## theme
 

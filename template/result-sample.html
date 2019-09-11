@@ -191,33 +191,38 @@ End Google Tag Manager -->
 
         <div class="row">
         <div class="col-sm-12">
-        <h1>Result sample</h1>
+        <h1>(agency.title)</h1>
 
         <!-- Output the primary description-->
         <h2 class="sr-only">Basic information</h2>
         <section class="core-information">
-          <p class="lead">Primary description content goes here.</p>
-          
+
+          <p class="lead">(agency.agency_note)</p>
+
           <ul class="list-group list-group-horizontal">
             <li class="list-group-item">
               <span class="small">ID</span><br>
-              A1225
+              [agency.qsa_id_prefixed]
             </li>
             <li class="list-group-item">
-              <span class="small">DATES</span><br>
-              12/12/2009 - 12/01/2019
+              <span class="small">START DATE</span><br>
+              [agency.start_date] ([start date qual])
             </li>
             <li class="list-group-item">
-              <span class="small">CREATING AGENCY</span><br>
-              <a href="#">Department of dreams</a>
+              <span class="small">END DATE</span><br>
+              [agency.end_date] ([end date qual])
+            </li>
+            <li class="list-group-item">
+              <span class="small">DATE NOTES</span><br>
+              [agency.date_notes]
             </li>
           </ul>
+
         </section>
 
 
-          <!-- Cycle through all the notes into the accordion ################################## -->
-        <h2 id="accordion" class="sr-only">Detailed information</h2>
-        <section>
+        <!-- Cycle through all the notes into the accordion ################################## -->
+        <h2 id="accordion">Detailed information</h2>
           <section class="qg-accordion qg-dark-accordion" aria-label="Accordion Label">
             <input type="radio" name="control" id="collapse" class="controls collapse" value="collapse" role="radio">
             <label for="collapse" class="controls">Collapse details</label>
@@ -227,40 +232,119 @@ End Google Tag Manager -->
 
             <article>
               <input id="panel-1" type="checkbox" name="tabs" aria-controls="id-panel-content-1" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-1">Note 1<span class="arrow"> <i></i></span></label></h3>
+              <h3 class="acc-heading"><label for="panel-1">Note type: Description<span class="arrow"> <i></i></span></label></h3>
               <div class="collapsing-section"  aria-hidden="true" id="id-panel-content-1">
-                <p> Content related to header. </p>
-                <ul>
-                  <li>If dot points are available</li>
-                  <li>Can go here</li>
-                </ul>
-                <p>Or provide any semantic html structure</p>
+                <p> Insert all content from this note into this space</p>
               </div>
             </article>
             <article>
               <input id="panel-2" type="checkbox" name="tabs" aria-controls="id-panel-content-2" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-2">Note 2<span class="arrow"> <i></i></span></label></h3>
+              <h3 class="acc-heading"><label for="panel-2">Note type: Information Sources<span class="arrow"> <i></i></span></label></h3>
               <div class="collapsing-section" aria-hidden="true" id="id-panel-content-2">
-                <p> Content related to header. </p>
-                <ul>
-                  <li>If dot points are available</li>
-                  <li>Can go here</li>
-                </ul>
-                <p>Or provide any semantic html structure</p>
+                <p> Insert all content from this note into this space</p>
               </div>
             </article>
             <article>
               <input id="panel-3" type="checkbox" name="tabs" aria-controls="id-panel-content-3" aria-expanded="false" role="checkbox">
-              <h3 class="acc-heading"><label for="panel-3">Note 3<span class="arrow"> <i></i></span></label></h3>
+              <h3 class="acc-heading"><label for="panel-3">Note type: Preferred Citiation<span class="arrow"> <i></i></span></label></h3>
               <div class="collapsing-section" aria-hidden="true" id="id-panel-content-3">
-                <p> Content related to header. </p>
-                <ul>
-                  <li>If dot points are available</li>
-                  <li>Can go here</li>
-                </ul>
-                <p>Or provide any semantic html structure</p>
+                <p> Insert all content from this note into this space</p>
               </div>
             </article>
+            <article>
+              <input id="panel-4" type="checkbox" name="tabs" aria-controls="id-panel-content-4" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-4">Note type: Remarks<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-4">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+            <article>
+              <input id="panel-5" type="checkbox" name="tabs" aria-controls="id-panel-content-5" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-5">Note type: Legislation - Establishing<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-5">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+            <article>
+              <input id="panel-6" type="checkbox" name="tabs" aria-controls="id-panel-content-6" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-6">Note type: Legislation - Abolished<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-6">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+            <article>
+              <input id="panel-7" type="checkbox" name="tabs" aria-controls="id-panel-content-7" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-7">Note type: Legislation - Administered<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-7">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+            <article>
+              <input id="panel-8" type="checkbox" name="tabs" aria-controls="id-panel-content-8" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-8">Note type: Departmental numbers<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-8">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+            <article>
+              <input id="panel-9" type="checkbox" name="tabs" aria-controls="id-panel-content-9" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-9">External Resources: Publications<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-9">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+            <article>
+              <input id="panel-10" type="checkbox" name="tabs" aria-controls="id-panel-content-10" aria-expanded="false" role="checkbox">
+              <h3 class="acc-heading"><label for="panel-10">External Resources: Finding aid<span class="arrow"> <i></i></span></label></h3>
+              <div class="collapsing-section" aria-hidden="true" id="id-panel-content-10">
+                <p> Insert all content from this note into this space</p>
+              </div>
+            </article>
+          </section>
+
+          <section>
+
+            <h2>Agency relationships</h2>
+
+            <h3>Related agencies</h3>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                (Related agency 1)<br />
+                (Relationship type 1)<br />
+                (Relationship dates 1)
+              </li>
+              <li class="list-group-item">
+                (Related agency 2)<br />
+                (Relationship type 2)<br />
+                (Relationship dates 2)
+              </li>
+            </ul>
+
+            <h3>Related mandates</h3>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                (Related mandate 1)<br />
+                (Relationship type 1)<br />
+                (Relationship dates 1)
+              </li>
+            </ul>
+
+            <h3>Related functions</h3>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                (Related function 1)<br />
+                (Relationship type 1)<br />
+                (Relationship dates 1)
+              </li>
+              <li class="list-group-item">
+                (Related function 2)<br />
+                (Relationship type 2)<br />
+                (Relationship dates 2)
+              </li>
+            </ul>
           </section>
 
 
