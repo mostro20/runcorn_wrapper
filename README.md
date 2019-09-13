@@ -14,7 +14,8 @@ This contains three template HTML files:
  * `content-page.html`, which is a responsive three column layout,
  * `content-page-left.html`, which contains a left column only,
  * `content-page-right.html`, which contains a right column only,
- * `component-guide.html`, which contains a individual reusable components.
+ * `component-guide.html`, which contains a individual reusable components,
+ * `content-page-cart.html`, contains the 3-col layout with a sample Q-Gov shopping cart.
 
 All three will reference the assets as a theme, but you can overrides this with what you develop from the Bootstrap SCSS folder.
 
