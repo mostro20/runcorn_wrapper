@@ -25,3 +25,5 @@ The following pages have been developed to show some ways of using components to
  * `result-sample.html`, sample layout for Agencies
  * `result-sample-series.html`, sample layout for Series
  * `result-sample-record.html`, sample layout for items
+ * `result-sample-function.html`, sample layout for functions
+ * `result-sample-mandate.html`, sample layout for mandates
