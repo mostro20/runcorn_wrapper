@@ -27,3 +27,19 @@ The following pages have been developed to show some ways of using components to
  * `result-sample-record.html`, sample layout for items
  * `result-sample-function.html`, sample layout for functions
  * `result-sample-mandate.html`, sample layout for mandates
+
+## search templates
+
+The following pages have been developed to show search pages and results:
+ * `search-page.html`, search with advanced Search
+ * `search-results.html`, TODO - search results
+
+## account pages
+
+This provides templates for the account pages
+ * `my-account.html`, TODO
+
+## admin pages
+
+This provides templates for the admin functionality
+ * `system-admin.html`, TODO
