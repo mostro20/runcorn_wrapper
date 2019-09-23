@@ -29,29 +29,31 @@ The following pages have been developed to show an advanced search pages and a r
 
 The following pages have been developed to show some ways of using components to return AS content pages (Agency, Series, Items, Functions, Mandates):
 
-TODO: show result listings on page - e.g. items in a Series.
+TODO: show result listings on page (e.g. items in a Series); associated actions to a result
  * `result-sample.html`, sample layout for Agencies
  * `result-sample-series.html`, sample layout for Series
  * `result-sample-record.html`, sample layout for items
  * `result-sample-function.html`, sample layout for functions
  * `result-sample-mandate.html`, sample layout for mandates
 
+ ## Administration pages
+
+ This provides templates for the admin functionality
+  * `system-login.html`, login page for admins
+  * `system-admin.html`, overview / success screen from login
+  * `system-requests-overview.html`, overview of all Reading Room results
+  * `system-requests-results.html`, TODO - view of a specific Reading Room request result with printing picking slips
+  * `system-users-overview.html`, overview of all users in the system
+  * `system-users-results.html`, TODO - view of an individual user
+  * `system-ordering`, TODO - ordering on behalf of users
+
 ## User account pages
 
-This provides templates for the account pages, so when meme
+This provides templates for the account pages, so when members of the public
  * `my-account-login.html`, TODO - page for logging in for public users
  * `my-account-registration.html`, TODO - page for users to register a new account
  * `my-account-profile.html`, TODO - page for users to view their won profile details and update their information
  * `my-account-ordering.html`, TODO - page that logged in users can access to create orders and requests
  * `my-account-order-history.html`, TODO - page where public users can access their order history
+ * `my-account-order-closed.html`, TODO - request to view restricted access with web form
  * `my-account-saved-searches.html`, TODO - page where users can access their saved searches
-
-## Administration pages
-
-This provides templates for the admin functionality
- * `system-login.html`, TODO - login page for admins
- * `system-admin.html`, TODO - overview / success screen from login
- * `system-requests-overview.html`, TODO - overview of all Reading Room results
- * `system-requests-results.html`, TODO - view of a specific Reading Room request result
- * `system-users-overview.html`, TODO - overview of all users in the system
- * `system-users-results.html`, TODO - view of an individual user
