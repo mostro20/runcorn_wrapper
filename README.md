@@ -44,7 +44,7 @@ The following pages have been developed to show some ways of using components to
   * `system-requests-overview.html`, overview of all Reading Room results
   * `system-requests-results.html`, view of a specific Reading Room request result with printing picking slips
   * `system-users-overview.html`, overview of all users in the system
-  * `system-users-results.html`, TODO - view of an individual user
+  * `system-users-results.html`, view of an individual user
   * `system-ordering`, TODO - ordering on behalf of users
 
 ## User account pages
