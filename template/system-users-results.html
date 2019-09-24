@@ -190,94 +190,93 @@ End Google Tag Manager -->
 
       <div class="row">
       <div class="col-sm-12">
-      <h1>Reading room requests</h1>
+      <h1>User management</h1>
+      <section>
+        <h2>Profile for Jane Citizen</h2>
 
-      <h2>Filter the reading room requests</h2>
-      <section class="search-input">
-
-        <form class="form-inline">
-
+        <form>
+          <h3>Core details</h3>
           <div class="qg-call-out-box">
-            <div class="form-row">
-            <div class="form-group col-xs-12 col-md-4">
-              <label for="keywords" class="sr-only">Keywords</label>
-              <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Search term">
-            </div>
-            <div class="input-group col-xs-12 col-md-6">
-              <div class="input-group-prepend">
-                <span class="input-group-text small">Dates</span>
-              </div>
-              <input type="text" size="10" aria-label="Start date" placeholder="start" class="form-control">
-              <input type="text" size="10" aria-label="End date" placeholder="end" class="form-control">
-            </div>
-            <div class="input-group col-xs-12 col-md-2">
-              <button type="submit" class="qg-btn btn-primary">Filter</button>
-            </div>
-          </div>
-        </div>
 
-          <div class="form-row col-md-12">
-            <button type="submit" class="qg-btn btn-primary">Print all results</button>
-            &nbsp;&nbsp;
-            <button type="submit" class="qg-btn btn-primary">Export results for AS movement</button>
+            <div class="form-group">
+              <label for="email-address">Email address</label>
+              <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="account-password">Password</label>
+              <input type="password" class="form-control" id="account-password" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="verfied-check">
+              <label class="form-check-label" for="verfied-check">Verified account?</label>
+            </div>
           </div>
+          <h3>Verified user details</h3>
+          <div class="qg-call-out-box">
+
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First name">
+            </div>
+            <div class="form-group">
+              <label for="first-name">Last Name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="Last name">
+            </div>
+            <div class="form-group">
+              <label for="first-name">Street Address</label>
+              <input type="text" class="form-control" id="first-name" placeholder="Street address">
+            </div>
+            <div class="form-group">
+              <label for="first-name">City / Suburb</label>
+              <input type="text" class="form-control" id="first-name" placeholder="City / Suburb">
+            </div>
+            <div class="form-group">
+              <label for="first-name">State</label>
+              <select class="custom-select">
+                <option value="QLD" selected>Queensland</option>
+                <option value="NSW">NSW</option>
+                <option value="Other">All the other ones</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="first-name">Postcode</label>
+              <input type="text" class="form-control" id="first-name" placeholder="Postcode">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Update account</button>
         </form>
-
       </section>
-
-      <h2>Reading room requests</h2>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Request date</th>
-            <th scope="col">Request size</th>
-            <th scope="col">Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">223</th>
-            <td>Jane Citizen</td>
-            <td>23/09/2019</td>
-            <td>23 items</td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">224</th>
-            <td>John Citizen</td>
-            <td>23/09/2019</td>
-            <td>230 items</td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">225</th>
-            <td>Mr T. Citizen</td>
-            <td>23/09/2019</td>
-            <td>26 items</td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">226</th>
-            <td>Dr M. Citizen</td>
-            <td>23/09/2019</td>
-            <td>27 items</td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <nav aria-label="Page navigation through ArchivesSearch results">
-        <ul class="pagination">
-          <li class="page-item"><a class="qg-previous page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="qg-next page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-
+      <section>
+        <h2>Order History</h2>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Order date</th>
+                <th scope="col">Order status</th>
+                <th scope="col">View order</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">223</th>
+                <td>Jane Citizen</td>
+                <td>23/09/2019</td>
+                <td><span class="badge badge-secondary">Pendings</span></td>
+                <td><button type="submit" class="qg-btn btn-primary">View order</button></td>
+              </tr>
+              <tr>
+                <th scope="row">224</th>
+                <td>John Citizen</td>
+                <td>23/09/2019</td>
+                <td><span class="badge badge-primary">Completed</span></td>
+                <td><button type="submit" class="qg-btn btn-primary">View order</button></td>
+              </tr>
+            </tbody>
+          </table>
+      </section>
 
 
       </div>

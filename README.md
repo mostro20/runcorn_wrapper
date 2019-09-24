@@ -29,7 +29,7 @@ The following pages have been developed to show an advanced search pages and a r
 
 The following pages have been developed to show some ways of using components to return AS content pages (Agency, Series, Items, Functions, Mandates):
 
-TODO: show result listings on page (e.g. items in a Series); associated actions to a result
+***TODO: associated actions to a result (order, request digitised)***
  * `result-sample.html`, sample layout for Agencies
  * `result-sample-series.html`, sample layout for Series
  * `result-sample-record.html`, sample layout for items
@@ -42,7 +42,7 @@ TODO: show result listings on page (e.g. items in a Series); associated actions 
   * `system-login.html`, login page for admins
   * `system-admin.html`, overview / success screen from login
   * `system-requests-overview.html`, overview of all Reading Room results
-  * `system-requests-results.html`, TODO - view of a specific Reading Room request result with printing picking slips
+  * `system-requests-results.html`, view of a specific Reading Room request result with printing picking slips
   * `system-users-overview.html`, overview of all users in the system
   * `system-users-results.html`, TODO - view of an individual user
   * `system-ordering`, TODO - ordering on behalf of users
