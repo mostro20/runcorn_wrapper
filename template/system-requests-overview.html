@@ -201,14 +201,22 @@ End Google Tag Manager -->
             <div class="form-row">
             <div class="form-group col-xs-12 col-md-4">
               <label for="keywords" class="sr-only">Keywords</label>
-              <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Search term">
+              <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Request keywords">
             </div>
-            <div class="input-group col-xs-12 col-md-6">
+            <div class="form-group col-xs-12 col-md-2">
+              <label for="keywords" class="sr-only">Status</label>
+              <select class="custom-select">
+                <option value="pending">Pending</option>
+                <option value="complete">Complete</option>
+                <option value="refused">Refused</option>
+              </select>
+            </div>
+            <div class="input-group col-xs-12 col-md-4">
               <div class="input-group-prepend">
                 <span class="input-group-text small">Dates</span>
               </div>
-              <input type="text" size="10" aria-label="Start date" placeholder="start" class="form-control">
-              <input type="text" size="10" aria-label="End date" placeholder="end" class="form-control">
+              <input type="text" size="6" aria-label="Start date" placeholder="start" class="form-control">
+              <input type="text" size="6" aria-label="End date" placeholder="end" class="form-control">
             </div>
             <div class="input-group col-xs-12 col-md-2">
               <button type="submit" class="qg-btn btn-primary">Filter</button>
@@ -229,10 +237,11 @@ End Google Tag Manager -->
       <table class="table table-striped">
         <thead>
           <tr>
-            <th scope="col">#</th>
+            <th scope="col">UserID</th>
             <th scope="col">Name</th>
             <th scope="col">Request date</th>
             <th scope="col">Request size</th>
+            <th scope="col">Status</th>
             <th scope="col">Action</th>
           </tr>
         </thead>
@@ -242,6 +251,7 @@ End Google Tag Manager -->
             <td>Jane Citizen</td>
             <td>23/09/2019</td>
             <td>23 items</td>
+            <td><span class="badge badge-secondary">Pending</span></td>
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
@@ -249,6 +259,7 @@ End Google Tag Manager -->
             <td>John Citizen</td>
             <td>23/09/2019</td>
             <td>230 items</td>
+            <td><span class="badge badge-secondary">Pending</span></td>
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
@@ -256,6 +267,7 @@ End Google Tag Manager -->
             <td>Mr T. Citizen</td>
             <td>23/09/2019</td>
             <td>26 items</td>
+            <td><span class="badge badge-warning">Refused</span></td>
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
@@ -263,6 +275,7 @@ End Google Tag Manager -->
             <td>Dr M. Citizen</td>
             <td>23/09/2019</td>
             <td>27 items</td>
+            <td><span class="badge badge-primary">Issued</span></td>
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
         </tbody>
