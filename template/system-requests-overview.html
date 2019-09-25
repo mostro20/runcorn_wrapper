@@ -237,24 +237,29 @@ End Google Tag Manager -->
       <table class="table table-striped">
         <thead>
           <tr>
+            <th scope="col">Select</th>
             <th scope="col">UserID</th>
             <th scope="col">Name</th>
             <th scope="col">Request date</th>
             <th scope="col">Request size</th>
             <th scope="col">Status</th>
-            <th scope="col">Action</th>
+            <th scope="col">View</th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <td><input type="checkbox" id="rid1"></td>
             <th scope="row">223</th>
             <td>Jane Citizen</td>
             <td>23/09/2019</td>
             <td>23 items</td>
             <td><span class="badge badge-secondary">Pending</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
+            <td>
+              <button type="submit" class="qg-btn btn-primary">View request</button>
+            </td>
           </tr>
           <tr>
+            <td><input type="checkbox" id="rid1"></td>
             <th scope="row">224</th>
             <td>John Citizen</td>
             <td>23/09/2019</td>
@@ -263,6 +268,7 @@ End Google Tag Manager -->
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
+            <td><input type="checkbox" id="rid1"></td>
             <th scope="row">225</th>
             <td>Mr T. Citizen</td>
             <td>23/09/2019</td>
@@ -271,6 +277,7 @@ End Google Tag Manager -->
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
+            <td><input type="checkbox" id="rid1"></td>
             <th scope="row">226</th>
             <td>Dr M. Citizen</td>
             <td>23/09/2019</td>
@@ -280,6 +287,21 @@ End Google Tag Manager -->
           </tr>
         </tbody>
       </table>
+      <div class="qg-call-out-box">
+        <div class="form-row">
+          <form>
+            <div class="form-group">
+              <label for="keywords" class="sr-only">Status</label>
+              <select class="custom-select">
+                <option value="pending" selected>Pending</option>
+                <option value="complete">Complete</option>
+                <option value="refused">Refused</option>
+              </select>
+              <button type="submit" class="qg-btn btn-primary">Update Status</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
       <nav aria-label="Page navigation through ArchivesSearch results">
         <ul class="pagination">
