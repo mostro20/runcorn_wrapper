@@ -195,19 +195,28 @@ End Google Tag Manager -->
       <section>
         <h2>Picking slip</h2>
         <div class="qg-call-out-box">
-          <div class="form-row">
+
             <form>
+            <div class="form-row">
               <div class="form-group">
                 <label for="keywords" class="sr-only">Status</label>
                 <select class="custom-select">
                   <option value="pending" selected>Pending</option>
                   <option value="complete">Complete</option>
+                  <option value="partial">Partial</option>
                   <option value="refused">Refused</option>
                 </select>
+              </div>
+              <div class="form-row">
+                <label for="notes-textarea">Notes</label>
+                <textarea class="form-control" id="notes-textarea" rows="3"></textarea>
+              </div>
+              <div class="form-row">
                 <button type="submit" class="qg-btn btn-primary">Update Status</button>
               </div>
+            </div>
             </form>
-          </div>
+
         </div>
           <table class="table table-bordered">
             <tbody>

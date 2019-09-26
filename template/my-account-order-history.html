@@ -190,9 +190,9 @@ End Google Tag Manager -->
 
       <div class="row">
       <div class="col-sm-12">
-      <h1>Reading room requests</h1>
+      <h1>My previous requests</h1>
 
-      <h2>Filter the reading room requests</h2>
+      <h2>Filter my reading room requests</h2>
       <section class="search-input">
 
         <form class="form-inline">
@@ -203,7 +203,7 @@ End Google Tag Manager -->
               <label for="keywords" class="sr-only">Keywords</label>
               <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Request keywords">
             </div>
-            <div class="form-group col-xs-12 col-md-2">
+            <div class="form-group col-xs-12 col-md-3">
               <label for="keywords" class="sr-only">Status</label>
               <select class="custom-select">
                 <option value="pending">Pending</option>
@@ -212,23 +212,18 @@ End Google Tag Manager -->
                 <option value="refused">Refused</option>
               </select>
             </div>
-            <div class="input-group col-xs-12 col-md-4">
+            <div class="input-group col-xs-12 col-md-5">
               <div class="input-group-prepend">
                 <span class="input-group-text small">Dates</span>
               </div>
               <input type="text" size="6" aria-label="Start date" placeholder="start" class="form-control">
               <input type="text" size="6" aria-label="End date" placeholder="end" class="form-control">
             </div>
-            <div class="input-group col-xs-12 col-md-2">
-              <button type="submit" class="qg-btn btn-primary">Filter</button>
-            </div>
           </div>
         </div>
 
           <div class="form-row col-md-12">
-            <button type="submit" class="qg-btn btn-primary">Print all results</button>
-            &nbsp;&nbsp;
-            <button type="submit" class="qg-btn btn-primary">Export results for AS movement</button>
+            <button type="submit" class="qg-btn btn-primary">Search my requests</button>
           </div>
         </form>
 
@@ -238,8 +233,6 @@ End Google Tag Manager -->
       <table class="table table-striped">
         <thead>
           <tr>
-            <th scope="col">Select</th>
-            <th scope="col">UserID</th>
             <th scope="col">Name</th>
             <th scope="col">Request date</th>
             <th scope="col">Request size</th>
@@ -249,9 +242,7 @@ End Google Tag Manager -->
         </thead>
         <tbody>
           <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">223</th>
-            <td>Jane Citizen</td>
+            <th scope="row">My name</td>
             <td>23/09/2019</td>
             <td>23 items</td>
             <td><span class="badge badge-secondary">Pending</span></td>
@@ -260,27 +251,21 @@ End Google Tag Manager -->
             </td>
           </tr>
           <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">224</th>
-            <td>John Citizen</td>
+            <th scope="row">My name</td>
             <td>23/09/2019</td>
             <td>230 items</td>
-            <td><span class="badge badge-info">Partial</span></td>
+            <td><span class="badge badge-secondary">Pending</span></td>
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">225</th>
-            <td>Mr T. Citizen</td>
+            <th scope="row">My name</td>
             <td>23/09/2019</td>
             <td>26 items</td>
             <td><span class="badge badge-warning">Refused</span></td>
             <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
           </tr>
           <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">226</th>
-            <td>Dr M. Citizen</td>
+            <th scope="row">My name</td>
             <td>23/09/2019</td>
             <td>27 items</td>
             <td><span class="badge badge-primary">Issued</span></td>
@@ -288,22 +273,6 @@ End Google Tag Manager -->
           </tr>
         </tbody>
       </table>
-      <div class="qg-call-out-box">
-        <div class="form-row">
-          <form>
-            <div class="form-group">
-              <label for="keywords" class="sr-only">Status</label>
-              <select class="custom-select">
-                <option value="pending" selected>Pending</option>
-                <option value="complete">Complete</option>
-                <option value="partial">Partial</option>
-                <option value="refused">Refused</option>
-              </select>
-              <button type="submit" class="qg-btn btn-primary">Update Status</button>
-            </div>
-          </form>
-        </div>
-      </div>
 
       <nav aria-label="Page navigation through ArchivesSearch results">
         <ul class="pagination">
@@ -337,14 +306,23 @@ End Google Tag Manager -->
 
       <nav id="qg-section-nav" aria-label="side navigation" role="navigation">
 
-    <h2><a href="#">System Admin</a></h2>
-    <ul aria-label="section navigation">
-        <li><a href="#">Request list</a></li>
-        <li><a href="#">User management</a></li>
-        <li><a href="#">Admin ordering</a></li>
-    </ul>
+          <h2><a href="#">ArchivesSearch</a></h2>
+          <ul aria-label="section navigation">
+              <li><a href="#">Series</a></li>
+              <li><a href="#">Functions</a></li>
+              <li><a href="#">Mandates</a></li>
+              <li><a href="#">Items</a></li>
+          </ul>
 
-</nav>
+          <h2><a href="#">My Account</a></h2>
+          <ul aria-label="profile navigation">
+              <li><a href="#">Update my profile</a></li>
+              <li><a href="#">Saved searches</a></li>
+              <li><a href="#">Previous orders</a></li>
+              <li><a href="#">Notifications</a></li>
+          </ul>
+
+      </nav>
 
 
     </div>

@@ -50,10 +50,13 @@ The following pages have been developed to show some ways of using components to
 ## User account pages
 
 This provides templates for the account pages, so when members of the public
- * `my-account-login.html`, TODO - page for logging in for public users
- * `my-account-registration.html`, TODO - page for users to register a new account
- * `my-account-profile.html`, TODO - page for users to view their won profile details and update their information
+ * `my-account-login.html`, - page for logging in for public users
+ * `my-account-registration.html`, - page for users to register a new account
+ * `my-account-profile.html`, - page for users to view their won profile details and update their information
+ * `my-account-order-history.html`, - page where public users can access their order history
+ * `my-account-order-history-results.html`, - page where public users view a specific request, which shows as a picking slip template
  * `my-account-ordering.html`, TODO - page that logged in users can access to create orders and requests
- * `my-account-order-history.html`, TODO - page where public users can access their order history
  * `my-account-order-closed.html`, TODO - request to view restricted access with web form
  * `my-account-saved-searches.html`, TODO - page where users can access their saved searches
+ * `my-account-notifications.html` TODO - notifications page
+ * `my-account-forgot-password.html` TODO - forgot password password page

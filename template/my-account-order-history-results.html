@@ -190,131 +190,55 @@ End Google Tag Manager -->
 
       <div class="row">
       <div class="col-sm-12">
-      <h1>Reading room requests</h1>
+      <h1>Request ID 226</h1>
 
-      <h2>Filter the reading room requests</h2>
-      <section class="search-input">
-
-        <form class="form-inline">
-
-          <div class="qg-call-out-box">
-            <div class="form-row">
-            <div class="form-group col-xs-12 col-md-4">
-              <label for="keywords" class="sr-only">Keywords</label>
-              <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Request keywords">
-            </div>
-            <div class="form-group col-xs-12 col-md-2">
-              <label for="keywords" class="sr-only">Status</label>
-              <select class="custom-select">
-                <option value="pending">Pending</option>
-                <option value="complete">Complete</option>
-                <option value="partial">Partial</option>
-                <option value="refused">Refused</option>
-              </select>
-            </div>
-            <div class="input-group col-xs-12 col-md-4">
-              <div class="input-group-prepend">
-                <span class="input-group-text small">Dates</span>
-              </div>
-              <input type="text" size="6" aria-label="Start date" placeholder="start" class="form-control">
-              <input type="text" size="6" aria-label="End date" placeholder="end" class="form-control">
-            </div>
-            <div class="input-group col-xs-12 col-md-2">
-              <button type="submit" class="qg-btn btn-primary">Filter</button>
-            </div>
-          </div>
-        </div>
-
-          <div class="form-row col-md-12">
-            <button type="submit" class="qg-btn btn-primary">Print all results</button>
-            &nbsp;&nbsp;
-            <button type="submit" class="qg-btn btn-primary">Export results for AS movement</button>
-          </div>
-        </form>
-
+      <section>
+        <h2>Order history - Request history</h2>
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row" colspan="2">Queensland State Archive</th>
+                <th scope="row" colspan="2">Client copy</th>
+              </tr>
+              <tr>
+                <th>Item ID</th>
+                <td>(QSA Item ID)</td>
+                <th>Previous System ID</th>
+                <td>(Prev. Sys. ID)</td>
+              </tr>
+              <tr>
+                <th>Dept ID</th>
+                <td colspan="3">(ID of responsible agency of items)</td>
+              </tr>
+              <tr>
+                <th>Access</th>
+                <td>(Access status)</td>
+                <th>Dates</th>
+                <td>(Start date - End date with Quals)</td>
+              </tr>
+              <tr>
+                <th>Description</th>
+                <td colspan="3">(Item Description as well physical rep description)</td>
+              </tr>
+              <tr>
+                <th>Series ID</th>
+                <td colspan="3">(Series ID)</td>
+              </tr>
+              <tr>
+                <th>Home location</th>
+                <td>(Container home location)</td>
+                <th>Top Container ID</th>
+                <td>(Top Container ID)</td>
+              </tr>
+              <tr>
+                <th>Researcher ID</th>
+                <td>(Access status)</td>
+                <th>Date Requested</th>
+                <td>(Start date - End date with Quals)</td>
+              </tr>
+            </tbody>
+          </table>
       </section>
-
-      <h2>Reading room requests</h2>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Select</th>
-            <th scope="col">UserID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Request date</th>
-            <th scope="col">Request size</th>
-            <th scope="col">Status</th>
-            <th scope="col">View</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">223</th>
-            <td>Jane Citizen</td>
-            <td>23/09/2019</td>
-            <td>23 items</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td>
-              <button type="submit" class="qg-btn btn-primary">View request</button>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">224</th>
-            <td>John Citizen</td>
-            <td>23/09/2019</td>
-            <td>230 items</td>
-            <td><span class="badge badge-info">Partial</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">225</th>
-            <td>Mr T. Citizen</td>
-            <td>23/09/2019</td>
-            <td>26 items</td>
-            <td><span class="badge badge-warning">Refused</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" id="rid1"></td>
-            <th scope="row">226</th>
-            <td>Dr M. Citizen</td>
-            <td>23/09/2019</td>
-            <td>27 items</td>
-            <td><span class="badge badge-primary">Issued</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="qg-call-out-box">
-        <div class="form-row">
-          <form>
-            <div class="form-group">
-              <label for="keywords" class="sr-only">Status</label>
-              <select class="custom-select">
-                <option value="pending" selected>Pending</option>
-                <option value="complete">Complete</option>
-                <option value="partial">Partial</option>
-                <option value="refused">Refused</option>
-              </select>
-              <button type="submit" class="qg-btn btn-primary">Update Status</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <nav aria-label="Page navigation through ArchivesSearch results">
-        <ul class="pagination">
-          <li class="page-item"><a class="qg-previous page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="qg-next page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-
 
 
       </div>
