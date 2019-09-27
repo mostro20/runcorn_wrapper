@@ -29,12 +29,13 @@ The following pages have been developed to show an advanced search pages and a r
 
 The following pages have been developed to show some ways of using components to return AS content pages (Agency, Series, Items, Functions, Mandates):
 
-***TODO: associated actions to a result (order, request digitised)***
  * `result-sample.html`, sample layout for Agencies
  * `result-sample-series.html`, sample layout for Series
  * `result-sample-record.html`, sample layout for items
  * `result-sample-function.html`, sample layout for functions
  * `result-sample-mandate.html`, sample layout for mandates
+ * `result-records-wt-actions-open.html`, layout of a record with actions for open (add to cart etc.)
+ * `result-records-wt-actions-closed.html`, layout of a record with actions for closed (add to cart etc.)
 
  ## Administration pages
 
@@ -56,7 +57,7 @@ This provides templates for the account pages, so when members of the public
  * `my-account-order-history.html`, - page where public users can access their order history
  * `my-account-order-history-results.html`, - page where public users view a specific request, which shows as a picking slip template
  * `my-account-ordering.html`, TODO - page that logged in users can access to create orders and requests
- * `my-account-order-closed.html`, TODO - request to view restricted access with web form
+ * `my-account-order-closed.html`, request to view restricted access with web form
  * `my-account-saved-searches.html`, TODO - page where users can access their saved searches
  * `my-account-notifications.html` TODO - notifications page
  * `my-account-forgot-password.html` TODO - forgot password password page

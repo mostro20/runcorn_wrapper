@@ -190,139 +190,54 @@ End Google Tag Manager -->
 
       <div class="row">
       <div class="col-sm-12">
-      <h1>My previous requests</h1>
+      <h1>Request closed access</h1>
 
-      <h2>Filter my reading room requests</h2>
-      <section class="search-input">
+      <p>Restrictions are administered by the government agency that set them, or its successor. You will need to apply to that agency for access.</p>
+      <p>If you are granted access, please bring in the confirmation letter to Queensland State Archives as proof of acceptance.</p>
+
+
+      <div class="alert alert-success" role="alert">
+        <h2><i class="fa fa-check-circle"></i>Your restricted access record request</h2>
+        <p>You have requested the following item: <strong>I123456 - General Correspondence</strong></p>
+      </div>
+
+      <section class="request-input">
 
         <form class="form-inline">
 
           <div class="qg-call-out-box">
             <div class="form-row">
-            <div class="form-group col-xs-12 col-md-4">
-              <label for="keywords" class="sr-only">Keywords</label>
-              <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Request keywords">
-            </div>
-            <div class="form-group col-xs-12 col-md-3">
-              <label for="keywords" class="sr-only">Status</label>
-              <select class="custom-select">
-                <option value="pending">Pending</option>
-                <option value="complete">Complete</option>
-                <option value="partial">Partial</option>
-                <option value="refused">Refused</option>
-              </select>
-            </div>
-            <div class="input-group col-xs-12 col-md-5">
-              <div class="input-group-prepend">
-                <span class="input-group-text small">Dates</span>
+              <div class="form-group col-xs-12 col-md-12">
+                <label for="requestor-name">Name of requestor</label>
+                <input type="text" size="15" class="form-control-plaintext" id="requestor-name" placeholder="Name of requestor">
               </div>
-              <input type="text" size="6" aria-label="Start date" placeholder="start" class="form-control">
-              <input type="text" size="6" aria-label="End date" placeholder="end" class="form-control">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-xs-12 col-md-12">
+                <label for="request-purpose">Purpose of request and why you need this information</label>
+                <textarea class="form-control col-xs-12" id="request-purpose" rows="5"></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-xs-12 col-md-12">
+                <label for="intention-to-publish">Any intention to publish, and details of this publication</label>
+                <textarea class="form-control col-xs-12" id="intention-to-publish" rows="3"></textarea>
+              </div>
             </div>
           </div>
-        </div>
 
           <div class="form-row col-md-12">
-            <button type="submit" class="qg-btn btn-primary">Search my requests</button>
+            <button type="submit" class="qg-btn btn-primary">Request access</button>
           </div>
         </form>
 
       </section>
 
-      <h2>Reading room requests</h2>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Request date</th>
-            <th scope="col">Request size</th>
-            <th scope="col">Status</th>
-            <th scope="col">View</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>23 items</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td>
-              <button type="submit" class="qg-btn btn-primary">View request</button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>230 items</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>26 items</td>
-            <td><span class="badge badge-warning">Refused</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>27 items</td>
-            <td><span class="badge badge-primary">Issued</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-        </tbody>
-      </table>
 
-      <nav aria-label="Page navigation through ArchivesSearch results">
-        <ul class="pagination">
-          <li class="page-item"><a class="qg-previous page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="qg-next page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
+</div>
 
+    </div>
 
-      <h2>Restricted records access requests</h2>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Request date</th>
-            <th scope="col">Status</th>
-            <th scope="col">View</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td>
-              <button type="submit" class="qg-btn btn-primary">View request</button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td><span class="badge badge-success">Accepted</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td><span class="badge badge-warning">Refused</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-        </tbody>
-      </table>
-
-
-
-      </div>
-      </div>
 
 
 

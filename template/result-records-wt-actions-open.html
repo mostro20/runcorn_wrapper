@@ -51,7 +51,8 @@
 </head>
 
 <body data-qg-accessibility="true">
-  <!-- Google Tag Manager - change with QSA's unique code and uncomment
+
+    <!-- Google Tag Manager - change with QSA's unique code and uncomment
 
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PMDS7K"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -62,7 +63,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PMDS7K');</script>
 
 
-End Google Tag Manager -->
+ End Google Tag Manager -->
+
     <section id="qg-access" role="navigation" aria-labelledby="landmark-label">
 	<h2 id="landmark-label" tabindex="0">Skip links and keyboard navigation</h2>
 	<ul>
@@ -85,7 +87,7 @@ End Google Tag Manager -->
 
             <ul class="qg-utilities list-inline col-xs-6 col-md-5">
 
-    <!-- Shopping cart -->
+    <!-- Optional shopping cart -->
     <li>
         <a href="#"><span class="fa fa-shopping-cart fa-2x" aria-hidden="true"></span></a>
     </li>
@@ -125,6 +127,8 @@ End Google Tag Manager -->
 </form>
 
 
+
+
 <nav id="qg-site-nav" role="navigation" aria-label="Main navigation" class="collapse">
 	<ul>
 		<li><a href="https://www.qld.gov.au/queenslanders/">For Queenslanders</a></li>
@@ -134,10 +138,10 @@ End Google Tag Manager -->
 
         </header>
 
-  <div id="qg-content">
-    <div id="qg-two-col-nav" class="row wide">
+        <div id="qg-content">
+            <div id="qg-three-col" class="row">
 
-      <nav id="qg-breadcrumb" role="navigation" aria-label="breadcrumb navigation" aria-labelledby="breadcrumb-heading" class="collapse">
+                <nav id="qg-breadcrumb" role="navigation" aria-label="breadcrumb navigation" aria-labelledby="breadcrumb-heading" class="collapse">
 
     <h2 id="breadcrumb-heading" class="qg-visually-hidden">You are here:</h2>
 
@@ -166,181 +170,344 @@ End Google Tag Manager -->
 </nav>
 
 
-      <!-- global alert -->
+                <div id="qg-primary-content" role="main">
 
-<!--
-<div class="alert alert-danger qg-noicon qg-global-alert">
-  <header>
-    <h2><a href="/emergency/">Emergency Alert</a></h2>
-    <p><time datetime="2014-10-20T12:30:00+10:00">about 3 minutes ago</time></p>
-  </header>
-  <section>
-    <a href="#">SE Qld Flood</a>
-    <a href="#">Cyclone Bazza</a>
-    <a href="#">Burke Bushfires</a>
-  </section>
+
+
+
+                  <div class="row">
+                  <div class="col-sm-12">
+                  <!-- Conditional alert to show when added to a cart -->
+                  <div class="alert alert-success" role="alert">
+                    <h2><i class="fa fa-check-circle"></i>Requested!</h2>
+                    <p>This item has been added to your reading room request list</p>
+                  </div>
+
+                  <h1>General correspondences</h1>
+                  <p>
+                    <a class="qg-btn btn-primary" href="">Request item</a>
+                    <a class="qg-btn btn-secondary" href="">Request digital copy</a>
+                  </p>
+                  <!-- Output the primary description-->
+                  <h2 class="sr-only">Basic information</h2>
+                  <section class="core-information">
+
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <ul class="list-group list-group-horizontal-md">
+                      <li class="list-group-item">
+                        <span class="small">ID</span><br>
+                        I67025
+                      </li>
+                      <li class="list-group-item">
+                        <span class="small">START DATE</span><br>
+                        1890 Approx.
+                      </li>
+                      <li class="list-group-item">
+                        <span class="small">END DATE</span><br>
+                        01/07/1951
+                      </li>
+                    </ul>
+                    <!-- If there are Date notes, output them as a footer -->
+                    <p class="footer small">Date notes: Approximate start date is probably within 10 years
+
+                    <h3 class="sr-only">Item descriptive metadata</h3>
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h4 class="mb-1">Departmental numbers</h4>
+                        </div>
+                        <p class="mb-1">(archival_object.agency_assigned_id)</p>
+                      </li>
+                      <li class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h4 class="mb-1">Previous system identifiers</h4>
+                        </div>
+                        <p class="mb-1">(archival_object.previous_identifiers)</p>
+                      </li>
+                      <li class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h4 class="mb-1">Copyright status</h4>
+                        </div>
+                        <p class="mb-1">(archival_object.copyright_status)</p>
+                      </li>
+                      <li class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h4 class="mb-1">Preferred citations</h4>
+                        </div>
+                        <p class="mb-1">(notes.preferred_ctiations)</p>
+                      </li>
+                      <li class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h4 class="mb-1">Remarks</h4>
+                        </div>
+                        <p class="mb-1">(notes.remarks)</p>
+                      </li>
+                      <li class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h4 class="mb-1">Publication notes</h4>
+                        </div>
+                        <p class="mb-1">
+                          (external_document.publication_note)<br>
+                          (external_document.link_address)
+                        </p>
+                      </li>
+                  </ul>
+
+                  </section>
+
+
+                  <!-- Cycle through all the physical and digital representations and contract into the accordion ################################## -->
+                  <h2 id="accordion">Item details</h2>
+                    <section class="qg-accordion qg-dark-accordion" aria-label="Accordion Label">
+                      <input type="radio" name="control" id="collapse" class="controls collapse" value="collapse" role="radio">
+                      <label for="collapse" class="controls">Collapse details</label>
+                      <span class="controls">&#124;</span>
+                      <input type="radio" name="control" id="expand" class="controls expand" value="expand" role="radio">
+                      <label for="expand" class="controls">Show details</label>
+
+                      <article>
+                        <input id="panel-1" type="checkbox" name="tabs" aria-controls="id-panel-content-1" aria-expanded="false" role="checkbox">
+                        <h3 class="acc-heading"><label for="panel-1">Physical items<span class="arrow"> <i></i></span></label></h3>
+                        <div class="collapsing-section"  aria-hidden="true" id="id-panel-content-1">
+                          <dl>
+                            <dt>ID</dt>
+                            <dd>qsa_id_prefixed.Identifier</dd>
+                            <dt>Format</dt>
+                            <dd>format.format</dd>
+                            <dt>Agency ID</dt>
+                            <dd>agency_assigned_id.Agency Control Number</dd>
+                            <dt>Previous System Identifier</dt>
+                            <dd>previous_identifiers.Previous System Identifiers</dd>
+                          </dl>
+                        </div>
+                      </article>
+                      <article>
+                        <input id="panel-2" type="checkbox" name="tabs" aria-controls="id-panel-content-2" aria-expanded="false" role="checkbox">
+                        <h3 class="acc-heading"><label for="panel-2">Digital item<span class="arrow"> <i></i></span></label></h3>
+                        <div class="collapsing-section" aria-hidden="true" id="id-panel-content-2">
+                          <dl>
+                            <dt>Download link</dt>
+                            <dd><a href="#">Link to download file</a></dd>
+                            <dt>ID</dt>
+                            <dd>qsa_id_prefixed.Identifier</dd>
+                            <dt>Format</dt>
+                            <dd>format.format</dd>
+                            <dt>Agency ID</dt>
+                            <dd>agency_assigned_id.Agency Control Number</dd>
+                            <dt>Previous System Identifier</dt>
+                            <dd>previous_identifiers.Previous System Identifiers</dd>
+                          </dl>
+                        </div>
+                      </article>
+
+                    </section>
+
+                    <section>
+
+                      <h2>Item relationships</h2>
+
+                      <h3>Related series</h3>
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          (Parent series)<br />
+                          (Relationship type 1)<br />
+                          (Relationship dates 1)
+                        </li>
+                      </ul>
+
+                      <h3>Related agencies</h3>
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          (Related agency 1)<br />
+                          (Ownership relationship)<br />
+                          (Relationship dates)
+                        </li>
+                        <li class="list-group-item">
+                          (Related agency 1)<br />
+                          (Creating relationship)<br />
+                          (Relationship dates)
+                        </li>
+                      </ul>
+
+                      <h3>Related items</h3>
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          (Related item 1)<br />
+                          (Containment relationship)<br />
+                          (Relationship dates)
+                        </li>
+                        <li class="list-group-item">
+                          (Related item 2)<br />
+                          (Containment relationship)<br />
+                          (Relationship dates)
+                        </li>
+                      </ul>
+                    </section>
+
+
+                  </div>
+                  </div>
+
+
+
+                    <div class="qg-content-footer">
+
+                        <dl>
+                            <dt>Last updated:</dt>
+                            <dd>27 August 2019</dd>
+                            <dt>Last reviewed:</dt>
+                            <dd>27 August 2019</dd>
+                        </dl>
+
+
+                    </div>
+                </div>
+
+                <aside id="qg-secondary-content">
+
+
+<div class="qg-aside qg-call-out-box">
+  <h2><span class="fa fa-book fa-2x" aria-hidden="true"></span>Reading room requests</h2>
+  <p>Current status: 2 requests</p>
+  <a class="qg-btn btn-primary" href="">Manage my reading room requests</a>
 </div>
--->
+
+<!--start mini cart -->
+<div id="minicart" class="qg-aside minicart" role="complementary">
+	<div class="inner">
+		<div id="ssq-minicart" class="placeholder">
+      <h2><span class="fa fa-shopping-cart fa-2x" aria-hidden="true"></span>Payment cart</h2>
+			<div id="ssq-minicart-view">
+				<noscript>
+					<p class="ssq-minicart-noscript">Edit cart or checkout to place your order.</p>
+					<div class="ssq-minicart-submit">
+						<input type="hidden" id="ssq-cart-contents" name="ssq-cart-contents" value="" />
+						<img src="https://www.smartservice.qld.gov.au/payment/minicart/synchronise?cartId=(cartId)" id="ssq-synch-img" height="0" width="0" alt="" />
+						<a href="https://www.smartservice.qld.gov.au/payment/cart/checkout" id="ssq-cart-checkout">
+							<img id="ssq_minicart_checkout" src="https://www.smartservice.qld.gov.au/payment/minicart/btn-checkout.png" alt="Checkout" />
+						</a>
+						<a href="https://www.smartservice.qld.gov.au/payment/cart/view" id="ssq-cart-edit">
+							<img id="ssq_minicart_cart" src="https://www.smartservice.qld.gov.au/payment/minicart/btn-cart.png" alt="Edit cart" />
+						</a>
+					</div>
+				</noscript>
+			</div>
+			<div class="ssq-minicart-cards">
+				<h3>Cards accepted</h3>
+				<ul>
+					<li>
+						<img src="https://www.smartservice.qld.gov.au/payment/minicart/visa.png" alt="Visa" />
+					</li>
+					<li>
+						<img src="https://www.smartservice.qld.gov.au/payment/minicart/mastercard.png" alt="MasterCard" />
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end mini cart -->
 
 
-    <div id="qg-primary-content" role="main">
 
+    <div class="qg-aside qg-search">
+        <h2><span class="fa fa-search fa-2x" aria-hidden="true"></span>Refine search</h2>
 
-
-
-      <div class="row">
-      <div class="col-sm-12">
-      <h1>My previous requests</h1>
-
-      <h2>Filter my reading room requests</h2>
-      <section class="search-input">
-
-        <form class="form-inline">
+        <form>
 
           <div class="qg-call-out-box">
             <div class="form-row">
-            <div class="form-group col-xs-12 col-md-4">
-              <label for="keywords" class="sr-only">Keywords</label>
-              <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Request keywords">
-            </div>
-            <div class="form-group col-xs-12 col-md-3">
-              <label for="keywords" class="sr-only">Status</label>
-              <select class="custom-select">
-                <option value="pending">Pending</option>
-                <option value="complete">Complete</option>
-                <option value="partial">Partial</option>
-                <option value="refused">Refused</option>
-              </select>
-            </div>
-            <div class="input-group col-xs-12 col-md-5">
-              <div class="input-group-prepend">
-                <span class="input-group-text small">Dates</span>
+              <div class="form-group col-xs-12">
+                <label for="keywords" class="sr-only">Keywords</label>
+                <input type="text" size="15" class="form-control-plaintext" id="keywords" placeholder="Search term">
               </div>
-              <input type="text" size="6" aria-label="Start date" placeholder="start" class="form-control">
-              <input type="text" size="6" aria-label="End date" placeholder="end" class="form-control">
             </div>
-          </div>
-        </div>
-
-          <div class="form-row col-md-12">
-            <button type="submit" class="qg-btn btn-primary">Search my requests</button>
+            <div class="form-row">
+              <div class="input-group col-xs-12">
+                <div class="input-group-prepend">
+                  <span class="input-group-text small">Years</span>
+                </div>
+                <input type="text" size="10" aria-label="Start year" placeholder="start" class="form-control">
+                <input type="text" size="10" aria-label="End year" placeholder="end" class="form-control">
+              </div>
+            </div>
+            <div class="form-row">
+              <button type="submit" class="qg-btn btn-primary btn-block">Search</button>
+            </div>
           </div>
         </form>
+        <div class="qg-aside">
+          <h2>Results facets</h2>
+          <ul>
+            <li>Series
+              <ul>
+                <li><a href="#">Result type 1 <span class="badge badge-light">14</span></a>
+                <li><a href="#">Result type 2 <span class="badge badge-light">9</span></a>
+                <li><a href="#">Result type 3 <span class="badge badge-light">3</span></a>
+              </ul>
+            </li>
+            <li>Creating Agency
+              <ul>
+                <li><a href="#">Result type 1 <span class="badge badge-light">14</span></a>
+                <li><a href="#">Result type 2 <span class="badge badge-light">9</span></a>
+                <li><a href="#">Result type 3 <span class="badge badge-light">3</span></a>
+              </ul>
+            </li>
+            <li>Responsible Agency
+              <ul>
+                <li><a href="#">Result type 1 <span class="badge badge-light">14</span></a>
+                <li><a href="#">Result type 2 <span class="badge badge-light">9</span></a>
+                <li><a href="#">Result type 3 <span class="badge badge-light">3</span></a>
+              </ul>
+            </li>
+            <li>Format
+              <ul>
+                <li><a href="#">Result type 1 <span class="badge badge-light">14</span></a>
+                <li><a href="#">Result type 2 <span class="badge badge-light">9</span></a>
+                <li><a href="#">Result type 3 <span class="badge badge-light">3</span></a>
+              </ul>
+            </li>
+            <li>Format
+              <ul>
+                <li><a href="#">Closed <span class="badge badge-light">14</span></a>
+                <li><a href="#">Open <span class="badge badge-light">9</span></a>
+              </ul>
+            </li>
+            <li>Digital file available
+              <ul>
+                <li><a href="#">Yes <span class="badge badge-light">14</span></a>
+                <li><a href="#">No <span class="badge badge-light">9</span></a>
+              </ul>
+            </li>
+            <li>Other Access status
+                <ul>
+                  <li><a href="#">Result type 1 <span class="badge badge-light">14</span></a>
+                  <li><a href="#">Result type 2 <span class="badge badge-light">9</span></a>
+                  <li><a href="#">Result type 3 <span class="badge badge-light">3</span></a>
+                </ul>
+            </li>
+            <li>Note types
 
-      </section>
+                <ul>
+                  <li><a href="#">Result type 1 <span class="badge badge-light">14</span></a>
+                  <li><a href="#">Result type 2 <span class="badge badge-light">9</span></a>
+                  <li><a href="#">Result type 3 <span class="badge badge-light">3</span></a>
+                </ul>
 
-      <h2>Reading room requests</h2>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Request date</th>
-            <th scope="col">Request size</th>
-            <th scope="col">Status</th>
-            <th scope="col">View</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>23 items</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td>
-              <button type="submit" class="qg-btn btn-primary">View request</button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>230 items</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>26 items</td>
-            <td><span class="badge badge-warning">Refused</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td>27 items</td>
-            <td><span class="badge badge-primary">Issued</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <nav aria-label="Page navigation through ArchivesSearch results">
-        <ul class="pagination">
-          <li class="page-item"><a class="qg-previous page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="qg-next page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-
-
-      <h2>Restricted records access requests</h2>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Request date</th>
-            <th scope="col">Status</th>
-            <th scope="col">View</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td><span class="badge badge-secondary">Pending</span></td>
-            <td>
-              <button type="submit" class="qg-btn btn-primary">View request</button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td><span class="badge badge-success">Accepted</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-          <tr>
-            <th scope="row">My name</td>
-            <td>23/09/2019</td>
-            <td><span class="badge badge-warning">Refused</span></td>
-            <td><button type="submit" class="qg-btn btn-primary">View request</button></td>
-          </tr>
-        </tbody>
-      </table>
-
-
-
-      </div>
-      </div>
-
-
-
-        <div class="qg-content-footer">
-
-            <dl>
-                <dt>Last updated:</dt>
-                <dd>27 August 2019</dd>
-                <dt>Last reviewed:</dt>
-                <dd>27 August 2019</dd>
-            </dl>
-
-
+            </li>
+          </ul>
         </div>
     </div>
 
-      <nav id="qg-section-nav" aria-label="side navigation" role="navigation">
+                </aside>
 
+      <div id="qg-section-nav">
+        <nav id="qg-side-nav" aria-label="side navigation" role="navigation">
           <h2><a href="#">ArchivesSearch</a></h2>
           <ul aria-label="section navigation">
               <li><a href="#">Series</a></li>
@@ -348,22 +515,25 @@ End Google Tag Manager -->
               <li><a href="#">Mandates</a></li>
               <li><a href="#">Items</a></li>
           </ul>
-
-          <h2><a href="#">My Account</a></h2>
-          <ul aria-label="profile navigation">
-              <li><a href="#">My order cart</a></li>
-              <li><a href="#">Update my profile</a></li>
-              <li><a href="#">Saved searches</a></li>
-              <li><a href="#">Previous orders</a></li>
-              <li><a href="#">Notifications</a></li>
-              <li><a href="#">Logout</a></li>
-          </ul>
-
-      </nav>
+        </nav>
+        <h2><a href="#">My Account</a></h2>
+        <ul aria-label="profile navigation">
+            <li><a href="#">My order cart</a></li>
+            <li><a href="#">Update my profile</a></li>
+            <li><a href="#">Saved searches</a></li>
+            <li><a href="#">Previous orders</a></li>
+            <li><a href="#">Notifications</a></li>
+        </ul>
 
 
-    </div>
-    <div id="qg-options" class="row">
+      </div>
+
+
+
+
+
+            </div>
+            <div id="qg-options" class="row">
     <div id="qg-share" class="qg-share"></div>
 
     <div id="qg-feedback-btn">
@@ -489,10 +659,10 @@ End Google Tag Manager -->
 </div>
 
 
-  </div>
+        </div>
 
-  <footer>
-    <div class="qg-site-map row">
+        <footer>
+            <div class="qg-site-map row">
 
     <div>
         <h3>
@@ -558,7 +728,7 @@ End Google Tag Manager -->
 
 </div>
 
-    <div class="qg-legal row">
+            <div class="qg-legal row">
 	<ul class="list-inline">
 		<li><a href="https://www.qld.gov.au/contact-us/" class="no-print">Contact us</a></li>
 		<li><a href="https://www.qld.gov.au/help/" class="no-print">Help</a></li>
@@ -574,22 +744,22 @@ End Google Tag Manager -->
 	<p><a href="https://www.qld.gov.au/" accesskey="1">Queensland Government</a></p>
 </div>
 
-  </footer>
-</div>
+        </footer>
+    </div>
 
-<script>
-  var qg = qg || {};
-  qg.swe = qg.swe || {};
-  // Used by the feedback form.
-  qg.swe.franchiseTitle = 'Franchise Title';
-</script>
+    <script>
+      var qg = qg || {};
+      qg.swe = qg.swe || {};
+      // Used by the feedback form.
+      qg.swe.franchiseTitle = 'Franchise Title';
+    </script>
 
-<!--external lib  (includes butterfly, markdown, generate-id)-->
-<script src="https://static.qgov.net.au/assets/v3.1/latest/lib/all-ext-min.js"></script>
+    <!--external lib  (includes butterfly, markdown, generate-id)-->
+<script src="/assets/v3.1/latest/lib/all-ext-min.js"></script>
 
 <!-- Require main javascript -->
-<!--<script src="https://static.qgov.net.au/assets/v3/js/qg-env.js"></script>-->
-<script src="https://static.qgov.net.au/assets/v3.1/latest/js/qg-main.js"></script>
+<!--<script src="/assets/v3/js/qg-env.js"></script>-->
+<script src="/assets/v3.1/latest/js/qg-main.js"></script>
 
 
 </body>
