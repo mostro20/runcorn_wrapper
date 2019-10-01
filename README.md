@@ -58,6 +58,6 @@ This provides templates for the account pages, so when members of the public
  * `my-account-order-history-results.html`, - page where public users view a specific request, which shows as a picking slip template
  * `my-account-ordering.html`, - page that logged in users can access to create orders and requests, works as the order cart
  * `my-account-order-closed.html`, request to view restricted access with web form
- * `my-account-saved-searches.html`, TODO - page where users can access their saved searches
+ * `my-account-saved-searches.html`, page where users can access their saved searches
  * `my-account-notifications.html` TODO - notifications page
  * `my-account-forgot-password.html` - forgot password password page
