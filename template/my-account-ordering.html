@@ -179,103 +179,204 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <div class="col-sm-12">
 
                     <h1>Your order request cart</h1>
-                    <p>Your order request cart contains <strong>3 items</strong>. You can drag and drop the options higher and lower to set an order priority.</p>
+                    <p>Your order request cart contains <strong>6 items</strong>. You can drag and drop the options higher and lower to set an order priority.</p>
                     <!-- Probably a sme -->
 
-                    <section role="list">
+                    <h2 id="accordion">My ordering cart</h2>
+                      <section class="qg-accordion qg-dark-accordion" aria-label="Accordion Label">
 
-                      <!-- OPEN PHYSICAL ITEM -->
-                      <div class="mb-2 d-flex w-100 justify-content-between">
-                        <button class="btn"><i class="fa fa-arrows"></i></button>
-                        <div class="qg-grab" role="listitem">
-                          <div class="d-flex w-100 justify-content-between">
-                            <h2>R123: Item title</h2>
+                        <article>
+                          <input id="panel-1" type="checkbox" name="tabs" aria-controls="id-panel-content-1" aria-expanded="false" role="checkbox">
+                          <h3 class="acc-heading"><label for="panel-1">Reading room requests<span class="arrow"> <i></i></span></label></h3>
+                          <div class="collapsing-section"  aria-hidden="true" id="id-panel-content-1">
+                            <div class="alert alert-success" role="alert">
+                              <h2><i class="fa fa-check"></i>Getting ready for the reading room</h2>
+                              <p>Looks like you are planning to visit the reading room. When you checkout, you'll need to nominate a time to visit</p>
+                            </div>
+                            <!-- OPEN PHYSICAL ITEM -->
+                            <div class="mb-2 qg-grab" role="listitem">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h2>R1237: Item title</h2>
 
-                            <span class="badge">Open record</span>
+                                  <span class="badge">Open record</span>
+                                </div>
+                                <dl class="row">
+                                  <dt class="col-xs-6">Item type</dt>
+                                  <dd class="col-xs-6">Physical representation</dd>
+
+                                  <dt class="col-xs-6">Delivery location</dt>
+                                  <dd class="col-xs-6">Reading room</dd>
+
+                                  <dt class="col-xs-6">Cost</dt>
+                                  <dd class="col-xs-6">Free, digitisation may result in costs <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
+                                </dl>
+                                <h3 class="sr-only">Actions</h3>
+                                <div class="btn-group">
+                                  <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
+                                </div>
+                              </div>
+
+                            <div class="clearfix"></div>
+
+                            <!-- OPEN PHYSICAL ITEM -->
+                            <div class="mb-2 qg-grab" role="listitem">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h2>R12763: Item title</h2>
+
+                                  <span class="badge">Open record</span>
+                                </div>
+                                <dl class="row">
+                                  <dt class="col-xs-6">Item type</dt>
+                                  <dd class="col-xs-6">Physical representation</dd>
+
+                                  <dt class="col-xs-6">Delivery location</dt>
+                                  <dd class="col-xs-6">Reading room</dd>
+
+                                  <dt class="col-xs-6">Cost</dt>
+                                  <dd class="col-xs-6">Free, digitisation may result in costs <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
+                                </dl>
+                                <h3 class="sr-only">Actions</h3>
+                                <div class="btn-group">
+                                  <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
+                                </div>
+                              </div>
+
+                            <div class="clearfix"></div>
+
+
+                            <!-- OPEN PHYSICAL ITEM -->
+                            <div class="mb-2 qg-grab" role="listitem">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h2>R12323: Item title</h2>
+
+                                  <span class="badge">Open record</span>
+                                </div>
+                                <dl class="row">
+                                  <dt class="col-xs-6">Item type</dt>
+                                  <dd class="col-xs-6">Physical representation</dd>
+
+                                  <dt class="col-xs-6">Delivery location</dt>
+                                  <dd class="col-xs-6">Reading room</dd>
+
+                                  <dt class="col-xs-6">Cost</dt>
+                                  <dd class="col-xs-6">Free, digitisation may result in costs <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
+                                </dl>
+                                <h3 class="sr-only">Actions</h3>
+                                <div class="btn-group">
+                                  <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
+                                </div>
+                              </div>
+
+                            <div class="clearfix"></div>
                           </div>
-                          <dl class="row">
-                            <dt class="col-xs-6">Item type</dt>
-                            <dd class="col-xs-6">Physical representation</dd>
+                        </article>
+                        <article>
+                          <input id="panel-2" type="checkbox" name="tabs" aria-controls="id-panel-content-2" aria-expanded="false" role="checkbox">
+                          <h3 class="acc-heading"><label for="panel-2">Digitisation requests<span class="arrow"> <i></i></span></label></h3>
+                          <div class="collapsing-section" aria-hidden="true" id="id-panel-content-2">
+                            <!-- PLACE ALL DIGITISATION REQUESTS HERE -->
 
-                            <dt class="col-xs-6">Delivery location</dt>
-                            <dd class="col-xs-6">Reading room</dd>
 
-                            <dt class="col-xs-6">Cost</dt>
-                            <dd class="col-xs-6">Free, digitisation may result in costs <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
-                          </dl>
-                          <h3 class="sr-only">Actions</h3>
-                          <div class="btn-group">
-                            <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
-                            <a class="qg-btn btn-secondary btn-xs" href="#">Request digital copy</a>
+                            <!-- OPEN DIGITAL ITEM -->
+                            <div class="mb-2 qg-grab" role="listitem">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h2>R124: Item title</h2>
+
+                                  <span class="badge">Open record</span>
+                                </div>
+                                <dl class="row">
+                                  <dt class="col-xs-6">Item type</dt>
+                                  <dd class="col-xs-6">Digital representation</dd>
+
+                                  <dt class="col-xs-6">Delivery location</dt>
+                                  <dd class="col-xs-6"><a href="#">Request digitised copy</a></dd>
+
+                                  <dt class="col-xs-6">Cost</dt>
+                                  <dd class="col-xs-6">Costs may apply <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
+                                </dl>
+                                <h3 class="sr-only">Actions</h3>
+                                <div class="btn-group">
+                                  <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
+                                </div>
+                              </div>
+
+
+                            <div class="clearfix"></div>
+
+
                           </div>
+                        </article>
+                        <article>
+                          <input id="panel-3" type="checkbox" name="tabs" aria-controls="id-panel-content-3" aria-expanded="false" role="checkbox">
+                          <h3 class="acc-heading"><label for="panel-3">Requests for closed data<span class="arrow"> <i></i></span></label></h3>
+                          <div class="collapsing-section" aria-hidden="true" id="id-panel-content-3">
+                            <!-- PLACE ALL CLOSED ACCESS  REQUESTS HERE -->
+                            <div class="alert alert-warning" role="alert">
+                              <h2><i class="fa fa-comments"></i>Requesting restricted access records</h2>
+                              <p>You currently have restricted access records in your cart. When you checkout you will have the opportunity to complete a webform to request access to these records from the responsible agency. Queensland State Archives cannot guarantee access will be granted to the records.</p>
+                            </div>
+
+                            <!-- CLOSED PHYSICAL ITEM -->
+
+                              <div class="mb-2 qg-grab" role="listitem">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h2>R1285: Item title</h2>
+
+                                  <span class="badge">Closed record</span>
+                                </div>
+                                <dl class="row">
+                                  <dt class="col-xs-6">Item type</dt>
+                                  <dd class="col-xs-6">Physical representation</dd>
+
+                                  <dt class="col-xs-6">Delivery location</dt>
+                                  <dd class="col-xs-6">Confirm access with agency</dd>
+
+                                  <dt class="col-xs-6">Cost</dt>
+                                  <dd class="col-xs-6">Costs may apply <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
+                                </dl>
+                                <h3 class="sr-only">Actions</h3>
+                                <div class="btn-group">
+                                  <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
+                                </div>
+                              </div>
+
+                            <div class="clearfix"></div>
+
+                            <!-- CLOSED PHYSICAL ITEM -->
+
+                              <div class="mb-2 qg-grab" role="listitem">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h2>R8127: Item title</h2>
+
+                                  <span class="badge">Closed record</span>
+                                </div>
+                                <dl class="row">
+                                  <dt class="col-xs-6">Item type</dt>
+                                  <dd class="col-xs-6">Physical representation</dd>
+
+                                  <dt class="col-xs-6">Delivery location</dt>
+                                  <dd class="col-xs-6">Confirm access with agency</dd>
+
+                                  <dt class="col-xs-6">Cost</dt>
+                                  <dd class="col-xs-6">Costs may apply <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
+                                </dl>
+                                <h3 class="sr-only">Actions</h3>
+                                <div class="btn-group">
+                                  <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
+                                </div>
+                              </div>
+
+                            <div class="clearfix"></div>
+
+                          </div>
+                        </article>
+
+                        <div class="mt-5">
+                          <button type="submit" class="qg-btn btn-primary">Checkout and place order</button>
+                          <button type="submit" class="qg-btn btn-secondary">Clear cart</button>
                         </div>
-                      </div>
 
-                      <div class="clearfix"></div>
-
-                      <!-- OPEN DIGITAL ITEM -->
-                      <div class="mb-2 d-flex w-100 justify-content-between">
-                        <button class="btn"><i class="fa fa-arrows"></i></button>
-                        <div class="qg-grab" role="listitem">
-                          <div class="d-flex w-100 justify-content-between">
-                            <h2>R124: Item title</h2>
-
-                            <span class="badge">Open record</span>
-                          </div>
-                          <dl class="row">
-                            <dt class="col-xs-6">Item type</dt>
-                            <dd class="col-xs-6">Digital representation</dd>
-
-                            <dt class="col-xs-6">Delivery location</dt>
-                            <dd class="col-xs-6"><a href="#">Download digital file</a></dd>
-
-                            <dt class="col-xs-6">Cost</dt>
-                            <dd class="col-xs-6">Free</dd>
-                          </dl>
-                          <h3 class="sr-only">Actions</h3>
-                          <div class="btn-group">
-                            <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
-                            <a class="qg-btn btn-secondary btn-xs" href="#">Download access copy</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- CLOSED PHYSICAL ITEM -->
-                      <div class="mb-2 d-flex w-100 justify-content-between">
-                        <button class="btn"><i class="fa fa-arrows"></i></button>
-                        <div class="qg-grab" role="listitem">
-                          <div class="d-flex w-100 justify-content-between">
-                            <h2>R125: Item title</h2>
-
-                            <span class="badge">Closed record</span>
-                          </div>
-                          <dl class="row">
-                            <dt class="col-xs-6">Item type</dt>
-                            <dd class="col-xs-6">Physical representation</dd>
-
-                            <dt class="col-xs-6">Delivery location</dt>
-                            <dd class="col-xs-6">Confirm access with agency</dd>
-
-                            <dt class="col-xs-6">Cost</dt>
-                            <dd class="col-xs-6">Costs may apply <small>(<a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> See fee schedule</a>)</small></dd>
-                          </dl>
-                          <h3 class="sr-only">Actions</h3>
-                          <div class="btn-group">
-                            <a class="qg-btn btn-default btn-xs" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Remove item</a>
-                            <a class="qg-btn btn-secondary btn-xs" href="#">Request access</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="mt-5">
-                        <button type="submit" class="qg-btn btn-primary">Checkout and place order</button>
-                      </div>
-
-                    </section>
-
-
-
-
+                      </section>
 
                   </div>
                   </div>
