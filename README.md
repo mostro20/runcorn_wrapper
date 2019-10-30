@@ -46,7 +46,7 @@ The following pages have been developed to show some ways of using components to
   * `system-requests-results.html`, view of a specific Reading Room request result with printing picking slips
   * `system-users-overview.html`, overview of all users in the system
   * `system-users-results.html`, view of an individual user
-  * `system-ordering`, TODO - ordering on behalf of users
+  * `picking-slip-fields.html`, layouts for picking slips client 
 
 ## User account pages
 
